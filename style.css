@@ -1,0 +1,54 @@
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #333;
+    font-family: sans-serif;
+}
+
+.flexItem {
+    flex-grow: 2;
+    margin: 26px; 
+    max-width: 300px;
+    border: 2px solid #444;
+    padding: 0 20px;
+}
+
+.flexItem:hover {
+    border-color: #71a151;
+    box-shadow: 0 0 20px #3f8605;
+}
+
+.flexItem:focus {
+    border-color: #71a151;
+    box-shadow: 0 0 20px #3f8605;
+}
+
+h2,h3 {
+    margin: 0;
+}
+
+h3 {
+    color: #888;
+}
+
+p b {
+    color: #71a151;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #49a809;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
